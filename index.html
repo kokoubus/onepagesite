@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OnePageSite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <script src="main.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+  />
+    <style>
+    body { font-family:Montserrat, sans-serif;
+    font-size: 14px;
+    background-color: grey;
+    }
+    /*general Rules*/
+    a{ text-decoration: none;
+    color:blue;}
+
+    img{ width: 100%
+    }
+    ul{ list-style:none;
+    padding-left: 0;
+    }
+    .cf::after{
+        content:"";
+        display: table;
+        clear:both;
+}
+figure {
+    margin: 0;
+}
+h2 {
+    text-align:center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight:lighter;/*À etudier*/
+}
+
+section:not(#intro) {
+  padding-top: 100px;
+}
+
+/*Header*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:50px;
+    background-color: rgba(51, 51, 51, 0.212);
+}
+.logo
+{
+    display: block;
+    float: left;
+    font-family: Monoton, serif;
+    margin: 40px 50px;
+    font-size: 20px;
+}
+nav{
+    float:right;
+    margin-right: 50px;
+    height: 50px;
+}
+nav ul{
+    margin-top: 30px;
+}
+nav li{
+    display:inline-block;
+    margin: 0 20px;
+}
+
+nav li:first-of-type {
+    margin-left: 0;
+
+}
+nav li:last-of-type{
+    margin-right:0;
+}
+nav li a {
+    padding: 0.5em;
+    display:inline-block;
+}
+#intro {
+    height: 100vh;
+}
+
+#intro figure
+{
+    float:left;
+    width:50%;
+    overflow: hidden;
+
+}
+#intro figure img{
+    height:100vh;
+    width: auto;
+    }
+
+#intro article {
+  float: right;
+  width: 50%;
+  margin: 250px auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+#aboutus figure{
+    float: left;
+    width: 29%;
+}
+#aboutus figure:nth-of-type(2){
+
+margin: 0 40px;
+}
+#aboutus figcaption{
+    padding: 50px 0px;
+    text-align:center;
+    background-color:rgb(180, 180, 180);
+
+}
+#aboutus img{
+    vertical-align:middle;
+}
+#blog figure{
+    display:inline-block;
+    width:30%;
+    float: left;
+    margin:20px 19px;
+
+}
+#contact article{
+    width: 50%;
+    float:left;
+    padding:50px;
+    box-sizing: border-box;
+}
+#contact address,
+#contact a[href*="tel"],
+#contact a[href*="email"]{
+    margin: 10px 0;
+    display:block;
+}
+#contact div{
+    text-align:center;
+}
+#contact i{
+    font-size: 25px;
+    margin:10px;
+}
+footer p{
+    float: right;
+    font-size:20px;
+    color:white;
+    margin:50px;
+}
+footer p i {
+
+    color:red;
+
+}
+.to-top{
+    position:fixed;
+    bottom:50px;
+    right: 50px;
+    background-color:#444;
+    color:white;
+    padding:20px;
+}
+    </style>
+</head>
+<body>
+    <header class="cf">
+     <a class="logo" href="index.html">LOGO</a>
+     <nav>
+         <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#aboutus">About us</a></li>
+             <li><a href="#blog">Blog</a></li>
+             <li><a href="#Contact">Contact</a></li>
+         </ul>
+     </nav>   
+    
+    </header>
+     <section id="intro" class="cf">
+         <figure>
+             <img src=anton-repponen-101539-unsplash.jpg alt="lol">
+         </figure>
+         <article>
+         <h1>Welcome the world of Random</h1>
+         <br><br>
+        <p>
+                Bien que cette locution n'ait pas de sens, elle<br> 
+                a une longue histoire. Elle a été utilisée pendant<br> 
+                plusieurs siècles par les typographes pour mettre<br>
+                en évidence les apparences les plus caractéristiques<br>
+                de leurs polices.
+        </p>
+    </article>
+     </section>
+     <section id="aboutus">
+         <h2>about us</h2>
+         <article class="cf">
+         <figure>
+             <img src=Cascade-de-Yikpa.jpg alt="lol">
+             <figcaption>
+                Some information
+             </figcaption>
+         </figure>
+         <figure>
+         <img src="Cascade-de-Yikpa.jpg">
+         <figcaption>
+            Some information
+         </figcaption></figure>
+<figure>
+         <img src="Cascade-de-Yikpa.jpg">
+         <figcaption>
+            Some information
+         </figcaption></figure>
+        </article>
+
+     </section>
+     <section id ="blog">
+<figure>
+    <img src=komal-brar-1360373-unsplash.jpg>
+</figure>
+<figure>
+    <img src="komal-brar-1360373-unsplash.jpg">
+</figure>
+<figure>
+    <img src="komal-brar-1360373-unsplash.jpg">
+</figure>
+<figure>
+    <img src="komal-brar-1360373-unsplash.jpg">
+</figure>
+<figure>
+    <img src="komal-brar-1360373-unsplash.jpg">
+</figure>
+<figure>
+    <img src="komal-brar-1360373-unsplash.jpg">
+</figure>           
+  </section>
+     <section id="contact" class="cf">
+         <h2>Contact</h2>
+       <article>  
+           <address>
+             Adress:Albertstr.7<br/>
+           <a href="tel:01236888"> 001232000></a>
+            <a href="mailto@mail.com">mail@mail.com</a>              
+         </address>
+         <article>
+ <div>
+<a href="#"><i class="fab fa-facebook"></i></a>
+</div>
+<div>
+ <a href="#"><i class="fab-twitter"></i></a>                
+</div>
+         </article>
+        </section> 
+        
+<footer class="cf">
+<a class="Logo" href="index.html">Logo</a> 
+<p>&copy;2019 made with <i class="fas fa-heart"></i></p>
+         <button href= "?">go to the top </button>
+    </footer>
+</body>
+</html>
